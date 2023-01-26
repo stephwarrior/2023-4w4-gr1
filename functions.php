@@ -3,8 +3,12 @@
 * L'ensemble des fonctions du thèmes
 
 */
-wp_enqueue_style('4w4-gr1-principal', //identificateur de la feuille de style
+function enfiler_css(){
+wp_enqueue_style('4w4-gr1-principal', //identificateur de la feuille de style (id)
     get_template_directory_uri() . '/style.css', // addresse url de style.css
     array(), //définir les dépendances
     filemtime(get_template_directory() . '/style.css'), // ;e calcul de la version du fichier css
     'all'); // média (all= tous sorte d'écran..etc)
+}
+//ajoute mon css dans ma page quand le hook se manifeste. Une fois ajouter tout contenu dans la page html, affiche mon scipt
+    add_action( 'wp_enqueue_scripts', 'enfiler_css' );
