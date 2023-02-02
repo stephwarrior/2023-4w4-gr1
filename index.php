@@ -19,7 +19,7 @@
        <?php endwhile; ?>
        <?php endif;?>
     </main>
-    <?php get_footer()/*** va aller chercher le fichier footer.php */?>
+    <?php get_footer();/*** va aller chercher le fichier footer.php */?>
 
 </body>
 </html>
