@@ -12,3 +12,13 @@ wp_enqueue_style('4w4-gr1-principal', //identificateur de la feuille de style (i
 }
 //ajoute mon css dans ma page quand le hook se manifeste. Une fois ajouter tout contenu dans la page html, affiche mon scipt
     add_action( 'wp_enqueue_scripts', 'enfiler_css' );
+    /*enregisrement des menus*/
+
+        function enregistre_menus(){
+            register_nav_menus( array(
+                'menu_entete' => 'Menu entete',
+                'menu_sidebar'  =>  'Menu sidebar' ,
+            ) );
+        }
+        add_action( 'after_setup_theme', 'enregistre_menus', 0 );
+    
