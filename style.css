@@ -444,4 +444,8 @@ main article {
 }
 main article:hover {
   background-color: rgba(216, 112, 147, 0.479);
+}
+
+article:nth-of-type(1) {
+  background-color: red;
 }/*# sourceMappingURL=style.css.map */
