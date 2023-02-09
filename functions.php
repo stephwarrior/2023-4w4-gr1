@@ -21,4 +21,11 @@ wp_enqueue_style('4w4-gr1-principal', //identificateur de la feuille de style (i
             ) );
         }
         add_action( 'after_setup_theme', 'enregistre_menus', 0 );
+
+        /*-----------------------------------add_theme_support*/
+        add_theme_support( 'title-tag' );
+add_theme_support( 'custom-logo', array(
+    'height' => 150,
+    'width'  => 150,
+) );
     
