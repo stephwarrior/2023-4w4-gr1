@@ -448,4 +448,8 @@ main article:hover {
 
 article:nth-of-type(1) {
   background-color: red;
+}
+
+article:nth-of-type(2) {
+  background-color: blue;
 }/*# sourceMappingURL=style.css.map */
