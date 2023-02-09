@@ -1,8 +1,11 @@
 h1 {
     font-size: clamp(0.75rem, -0.75rem + 4.8vw, 3.75rem);
+    color: palevioletred;
   }
   h2 {
     font-size: clamp(0.625rem, -0.3125rem + 3vw, 2.5rem);
+    color: white;
+
   }
   h3 {
     font-size: clamp(0.5625rem, -0.25rem + 2.6vw, 2.1875rem);

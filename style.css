@@ -325,10 +325,12 @@ template {
 /* --------------------------------------------- base */
 h1 {
   font-size: clamp(0.75rem, -0.75rem + 4.8vw, 3.75rem);
+  color: palevioletred;
 }
 
 h2 {
   font-size: clamp(0.625rem, -0.3125rem + 3vw, 2.5rem);
+  color: white;
 }
 
 h3 {
@@ -374,8 +376,16 @@ p {
 }
 
 /* --------------------------------------------- composant */
+.site__entete:not(nav) {
+  display: flex;
+  align-items: center;
+  flex-direction: column-reverse;
+  background-color: black;
+}
+
 .site__titre {
   text-decoration: none;
+  color: pink;
 }
 
 .site__titre h1 {
@@ -387,8 +397,28 @@ p {
 .menu__entete .menu {
   display: flex;
   list-style-type: none;
-  justify-content: flex-end;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: palevioletred;
+  margin: 0;
+  padding: 20px;
+  height: 10vh;
+  width: 100vw;
+  flex-direction: row-reverse;
 }
 .menu__entete .menu .menu-item a {
   padding: 3px 5px;
+  text-decoration: none;
+  color: black;
+  margin: 0 10px;
+  font-size: 2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: 100vh;
+}
+.menu__entete .menu .menu-item a:hover {
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+  color: palevioletred;
+  margin: 0 5px;
 }/*# sourceMappingURL=style.css.map */

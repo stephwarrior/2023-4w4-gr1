@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>mon 4W4</title>
   
-    <?php wp_head() /**sa va intégrer lentete de notre page.  */ ?> 
+    <?php wp_head(); /**sa va intégrer lentete de notre page.  */ ?> 
 </head>
 <body>
     <header class="site__entete">
@@ -14,7 +14,7 @@
         <?php wp_nav_menu(array(
                         "menu"=> "entete",
                         "container" => "nav",
-                        "container-class" => "menu__entete"
+                        "container_class" => "menu__entete"
         )); ?>   
     <h1><a class="site__titre" href="<?= bloginfo('url');?>"><?= bloginfo('name'); ?></a></h1> 
     <h2><?= bloginfo('description'); ?></h2>
