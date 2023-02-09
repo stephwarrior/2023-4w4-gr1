@@ -421,4 +421,27 @@ p {
   border-radius: 20px;
   color: palevioletred;
   margin: 0 5px;
+}
+
+main {
+  background-color: pink;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.5rem;
+}
+main pre {
+  margin: 0;
+}
+main a {
+  text-decoration: none;
+  color: white;
+}
+main article {
+  background-color: palevioletred;
+  padding: 40px;
+}
+main article:hover {
+  background-color: rgba(216, 112, 147, 0.479);
 }/*# sourceMappingURL=style.css.map */

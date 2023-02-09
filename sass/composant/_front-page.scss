@@ -1,0 +1,23 @@
+main{
+    background-color: pink;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5rem;
+    pre{
+        margin: 0;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    article{
+        background-color: palevioletred;
+        padding: 40px;
+    }
+    article:hover{
+        background-color: rgba(216, 112, 147, 0.479);
+    }
+
+}
