@@ -1,17 +1,12 @@
-# Laboratoire #1
+# Laboratoire #3
 ## 4W4-Conception d'interfaces et développement Web
 ### Auteur: Stephanie Guerrier
 
 #### Objectifs
-- Installer Wordpress localement
-- Réaliser une première version d'un thème
+- Améliorer la page d'accueil avec les flexbox
+- Réaliser le formatage des articles markdown
 
 #### Liens de référence
-- Site du prof sur siteground
-    - https://eddytuto.sg-host.com/
-- Github **eddytuto**
-- https://github.com/eddytuto
-- https://fr.worpress.org/
-- Pour visualiser sur VC installer "Markdown preview enhanced"
-- Pour activer ctrl + shift + v
-- https://developer.wordpress.org/themes/basics/
+- Site sur le serveur Web distant **siteground**
+    - https://cidweb33.sg-host.com/
+- Github **stephWarrior**
