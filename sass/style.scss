@@ -22,8 +22,10 @@ Text Domain: 4w4-Stephanie-Guerrier
 //@import "base/espacement";
 //@import "base/lien";
 //@import "base/list";
+@import "base/markdown";
 
 /* --------------------------------------------- composant */
 @import "composant/entete";
 @import "composant/front-page";
-@import "composant/single";
+@import "composant/blocflex";
+//@import "composant/single";

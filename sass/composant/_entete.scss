@@ -1,20 +1,20 @@
-.site__entete:not(nav){
+.entete__nav{
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    flex-direction: column-reverse;
-    background-color: black;
+
 }
-.site__entete{
-width: 100w;
-}
+
+
 .site__titre{
-    text-decoration: none;
-    color: pink;
-}
-.site__titre h1{
     font-size: clamp(1rem,0.3864rem + 2.4545vw, 4.375rem);
-    color: pink;   
+    color: pink;
+    a{
+        text-decoration: none;
+
+    }
 }
+
 /*//////////////////////////MENU_ENTETE////////*/
 .menu__entete{ //nav
     .menu{ //ul
@@ -42,10 +42,10 @@ width: 100w;
             }
             a:hover{
                 background-color: white;
-    padding: 20px;
-    border-radius: 20px;
-    color: palevioletred;
-    margin: 0 5px;
+                padding: 20px;
+                border-radius: 20px;
+                color: palevioletred;
+                margin: 0 5px;
             }
 
         }
