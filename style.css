@@ -468,6 +468,13 @@ pre {
   color: palevioletred;
   margin: 0 5px;
 }
+.menu__entete .menu .menu-item::before {
+  content: "";
+  background: transparent;
+  border-radius: 0;
+  padding-inline: 0;
+  margin-block-end: 0;
+}
 
 main {
   background-color: pink;

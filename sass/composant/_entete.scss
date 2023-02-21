@@ -26,7 +26,7 @@
         margin: 0;
         padding: 20px;
         height: 10vh;
-        width: 100vw;
+        
         flex-direction: row-reverse;
 
             .menu-item{//li
@@ -48,6 +48,12 @@
                 margin: 0 5px;
             }
 
+        }.menu-item::before{
+            content: "";
+            background: transparent;
+            border-radius: 0;
+            padding-inline: 0;
+            margin-block-end: 0;
         }
 
     }
