@@ -10,3 +10,6 @@
 - Site sur le serveur Web distant **siteground**
     - https://cidweb33.sg-host.com/
 - Github **stephWarrior**
+- Pour visualise sur VC installer « Markdown preview »
+- Pour activer ctrl-shift-v
+

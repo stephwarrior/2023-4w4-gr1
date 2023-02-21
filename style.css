@@ -375,8 +375,33 @@ p {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
 
+@media screen and (min-width: 400px) {
+  ul,
+  ol {
+    margin: 1rem 1.5rem;
+    padding: 13px;
+  }
+}
+@media screen and (min-width: 700px) {
+  ul,
+  ol {
+    margin: 1rem 0.5rem;
+    padding: 15px;
+  }
+}
+
+ul {
+  list-style-type: square;
+}
+
+ul li,
+ol li {
+  margin: 0.5rem 0rem;
+}
+
 pre {
-  background-color: aquamarine;
+  background-color: grey;
+  color: #eee;
   overflow-x: scroll;
 }
 

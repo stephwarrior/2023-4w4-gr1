@@ -19,10 +19,11 @@ Text Domain: 4w4-Stephanie-Guerrier
 
 /* --------------------------------------------- base */
 @import "base/heading";
+@import "base/markdown";
 //@import "base/espacement";
 //@import "base/lien";
 //@import "base/list";
-@import "base/markdown";
+
 
 /* --------------------------------------------- composant */
 @import "composant/entete";
