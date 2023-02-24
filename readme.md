@@ -5,6 +5,12 @@
 #### Objectifs
 - Améliorer la page d'accueil avec les flexbox
 - Réaliser le formatage des articles markdown
+- Modifier le thème de base avec quelques modèles dont:
+    - front-page.php
+    - single.php
+    - 404.php
+    - search.php
+- Développement de Sass  
 
 #### Liens de référence
 - Site sur le serveur Web distant **siteground**

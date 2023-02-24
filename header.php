@@ -14,6 +14,10 @@
     <header class="site__entete">
         <section class="entete__nav">
         <?php the_custom_logo(); ?> 
+        <div class="phraseIntrofoHeader">
+       <!-- <h1>Bienvenue sur 4W4</h1>-->
+       <h1 class="site__titre"><a href="<?= bloginfo('url');?>"><?= bloginfo('name'); ?></a></h1> 
+        <h2 class="site__description"><?= bloginfo('description'); ?></h2></div>
         <?php wp_nav_menu(array(
                         "menu"=> "entete",
                         "container" => "nav",
@@ -21,6 +25,6 @@
         )); ?>
         <?= get_search_form(); ?>   
         </section>
-    <h1 class="site__titre"><a href="<?= bloginfo('url');?>"><?= bloginfo('name'); ?></a></h1> 
-    <h2 class="site__description"><?= bloginfo('description'); ?></h2>
+
+   
     </header>

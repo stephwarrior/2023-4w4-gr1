@@ -24,7 +24,7 @@
       // sur la nouvelle requête contenu dans $query
       if ( $query->have_posts() ) :
          while ( $query->have_posts() ) : $query->the_post(); ?>
-            <article>
+            <article class="articleCategory">
                <h2><a href="<?php the_permalink(); ?>"> <?= get_the_title(); ?></a></h2>
                <p><?= wp_trim_words(get_the_excerpt(), 15) ?></p>
             </article>

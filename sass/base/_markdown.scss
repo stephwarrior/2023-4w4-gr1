@@ -2,8 +2,7 @@ ul,
 ol {
     margin : 0rem 0rem;
     padding : 7px;
-    color : #444;
-    list-style-type : none;
+    list-style-type: circle;
     @media screen and (min-width: 400px) {
         margin : 1rem .5rem; 
         padding : 0 13px;
@@ -19,6 +18,9 @@ ol {
 ul {
   
 }
+li {
+
+}
 
 ul li, 
 ol li {
@@ -27,11 +29,6 @@ ol li {
 
 
  ul   li::before {
-    content: "-";
-    background: lightgray;
-    border-radius: .5rem;
-    padding-inline: .3rem;
-    margin-inline-end: .3rem;
       }
       ul li li::before
       {

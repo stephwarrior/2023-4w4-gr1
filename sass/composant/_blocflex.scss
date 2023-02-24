@@ -1,9 +1,10 @@
-.blocflex{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin: 5rem 0;
-    padding-bottom: 15rem;
+
+  .blocflex{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin: 5rem 0;
+        padding-bottom: 15rem;
     article{
         flex: 1 0 250px;
         margin: 10px;
@@ -11,24 +12,6 @@
         background-color: #1E262F;
         padding: 40px;
     }
-     a{
-        text-decoration: none;
-        color: white;
-
-    }
-
-    hr{
-        visibility: hidden;
-    }
-    
-    article:hover{
-        filter: brightness(3);    
-        cursor: pointer;
-    hr{
-        visibility: visible;
-    }
-
-    }
+  }
 
    
-}

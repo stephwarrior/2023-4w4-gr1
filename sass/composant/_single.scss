@@ -1,0 +1,13 @@
+.singleArticle{
+    background-color: #283c56;
+    border: 2px double #6192d3;
+    padding: 2rem;
+    h3{
+        text-decoration: underline;
+    }
+    h3::before{
+        content: '\27A4';
+        margin-right: 10px;
+    }
+}
+

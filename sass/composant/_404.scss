@@ -1,0 +1,12 @@
+.pageErreur{
+    h1{
+        font-size: 10rem;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    h1::before, h1::after{
+        content: '\26A0';
+        font-size: 15rem;
+        margin-left: 10px;
+        color: red;
+    }
+}

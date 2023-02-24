@@ -4,7 +4,7 @@
  */
 ?>
 <?php get_header();/*** va aller chercher le fichier header.php */?>
-    <main>
+    <main class="pageErreur">
     <pre>404.php</pre>
     <h1>Erreur 404</h1>
     
