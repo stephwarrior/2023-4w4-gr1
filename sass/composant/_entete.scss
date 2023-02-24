@@ -1,50 +1,51 @@
 .entete__nav{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
+    border-bottom: 2px solid gray;
 
 }
-
+.site__entete{
+padding-bottom: 15rem;
+padding: 0 3rem;
+}
 
 .site__titre{
-    font-size: clamp(1rem,0.3864rem + 2.4545vw, 4.375rem);
-    color: pink;
-    a{
-        text-decoration: none;
-
-    }
+    //font-size: clamp(1rem,0.3864rem + 2.4545vw, 4.375rem);
+    visibility: hidden;
+}
+.site__description{
+margin: 0;
 }
 
 /*//////////////////////////MENU_ENTETE////////*/
 .menu__entete{ //nav
+    
     .menu{ //ul
         display: flex;
         list-style-type: none;
         justify-content: flex-start;
         align-items: center;
-        background-color: palevioletred;
         margin: 0;
         padding: 20px;
         height: 10vh;
         
-        flex-direction: row-reverse;
 
             .menu-item{//li
             a{
                 padding: 3px 5px;
                 text-decoration: none;
-                color: black;
+                color: white;
                 margin: 0 10px;
-                font-size: 2rem;
+                font-size: 1.3rem;
                 font-family: Verdana, Geneva, Tahoma, sans-serif;
                 height: 100vh;
-
+                border-bottom: 2px solid transparent;
             }
             a:hover{
-                background-color: white;
+                border-bottom: 2px solid white;
                 padding: 20px;
-                border-radius: 20px;
-                color: palevioletred;
+                color: white;
                 margin: 0 5px;
             }
 
