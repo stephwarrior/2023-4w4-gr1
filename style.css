@@ -556,6 +556,10 @@ body main pre {
   color: black;
 }
 
+.articleCategory a {
+  font-weight: 900;
+}
+
 footer {
   padding: 5rem;
   border-top: 2px solid gray;
