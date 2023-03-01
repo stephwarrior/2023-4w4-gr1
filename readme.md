@@ -69,6 +69,7 @@
    - Une branche **tp1**
    - Déploiement de votre site sur Siteground
    - Un readme.md pour le thème et pour l'extension: auteur, titre du projet, description et lien vers votre site Site siteground
+   - Dans page d'accueil ...
 
 2. Organisation de l'entête, footer et partie principale. Qualité du design et de l’intégration des différents éléments de contenu. Notamment, les articles de notes de cours s'affichent de façon optimale. Les modèles: header.php, footer.php, category.php, front-page.php et single.php sont bien structurés et affichent l'information prévue. **_(10 points)_**
 3. Design général de la page et organisation de la programmation Sass, PHP. Organisation des menus, bouton burger pour afficher le menu principal pour les petits écrans. Adaptabilité générale du site. **_(5 points)_**

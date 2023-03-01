@@ -5,7 +5,7 @@
 ?>
 
 <?php get_header(); ?>
-    <main>
+    <main class="site__main">
             <pre>front-page.php</pre>
             
         <section class="blocflex">

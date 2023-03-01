@@ -10,7 +10,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300&display=swap" rel="stylesheet">
     <?php wp_head(); /**sa va intégrer lentete de notre page.  */ ?> 
 </head>
-<body>
+<body class="site">
     <header class="site__entete">
         <section class="entete__nav">
         <?php the_custom_logo(); ?> 
@@ -28,3 +28,19 @@
 
    
     </header>
+<aside class="site__aside">
+    <h3>Menu secondaire</h3>
+    <?php 
+    $category= get_queried_object();
+    if(isset($category)){
+        $menu= $category->slug;
+
+    }else{
+        $menu="note-4w4";
+    }
+    echo $menu;
+    wp_nav_menu(array(
+        "menu"=> $menu,
+        "container"=>"nav",
+    )) ?> 
+</aside>
