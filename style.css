@@ -508,12 +508,16 @@ body main pre {
   margin: 5rem 0;
   padding-bottom: 15rem;
 }
-.blocflex article {
+
+.blocflex__article {
   flex: 1 0 250px;
+  padding: 5px;
   margin: 10px;
   border: 1px solid #aaa;
-  background-color: #1E262F;
-  padding: 40px;
+}
+
+.blocflex__galerie {
+  flex: 1 0 100%;
 }
 
 .recherche {

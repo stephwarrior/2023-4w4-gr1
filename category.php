@@ -2,6 +2,8 @@
 /**
  * category.php est le modèle par défaut pour 
  * afficher une archive d'articles de catégorie spécifique 
+ * https:localhost:8000/4w4gr1/category/cours/
+ * https:localhost:8000/4w4gr1/category/note-4w4/
  */
 ?>
 <!---------------------------------HEADER------------------------------>
@@ -24,13 +26,7 @@
       // sur la nouvelle requête contenu dans $query
       if ( $query->have_posts() ) :
          while ( $query->have_posts() ) : $query->the_post();
-         $titre = get_the_title();
-         if($category-> slug == "cours"){
-            $sigle = substr($titre,0,7);
-            $titre_long = substr($titre,7,-5);
-            $duree = "90";
-            $titre=$sigle;
-         }
+         get_template_part("template-parts/categorie", $category->slug);
          
          
          
