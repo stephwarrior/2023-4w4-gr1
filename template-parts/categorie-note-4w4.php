@@ -8,7 +8,7 @@ $titre = get_the_title();
 // retirer le premier du titre d'article de catégorie note-4w4
 // if (substr($titre,0,1) == '0') {}...
 ?>
-<article class="blocflex__article">
+<article class="blocflex__article note">
     <h5><a href="<?php the_permalink(); ?>"> <?= $titre; ?></a></h5>
     <p><?= wp_trim_words(get_the_excerpt(), 15) ?></p>
 </article>

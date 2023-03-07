@@ -516,6 +516,17 @@ body main pre {
   border: 1px solid #aaa;
 }
 
+.blocflex__article.cours:hover, .blocflex__article.note:hover {
+  background-color: white;
+  cursor: pointer;
+}
+.blocflex__article.cours:hover p, .blocflex__article.note:hover p {
+  color: black;
+}
+.blocflex__article.cours:hover h6, .blocflex__article.note:hover h6 {
+  color: #6192D3;
+}
+
 .blocflex__galerie {
   flex: 1 0 100%;
 }
@@ -552,18 +563,6 @@ body main pre {
   margin-right: 10px;
 }
 
-.articleCategory:hover {
-  background-color: white;
-  cursor: pointer;
-}
-.articleCategory:hover p {
-  color: black;
-}
-
-.articleCategory a {
-  font-weight: 900;
-}
-
 footer {
   padding: 5rem;
   border-top: 2px solid gray;
@@ -588,23 +587,20 @@ Mise en page général avec display:grid
 .site__entete {
   grid-area: header;
   padding: 1rem clamp(1rem, 3vw, 20rem);
-  background-color: antiquewhite;
 }
 
 .site__main {
   grid-area: main;
-  background-color: rgb(144, 177, 218);
 }
 
 .site__footer {
   grid-area: footer;
-  background-color: pink;
 }
 
 .site__aside {
   grid-area: aside;
   padding: 1rem clamp(1rem, 3vw, 20rem);
-  background-color: palevioletred;
+  border-right: 2px solid white;
 }
 
 .site {
@@ -616,5 +612,15 @@ Mise en page général avec display:grid
   .site {
     grid-template-columns: 20% auto;
     grid-template-areas: "header header" "aside main" "footer footer";
+  }
+}
+
+.no-aside {
+  grid-template-areas: "header" "main" "footer";
+}
+@media screen and (min-width: 1000px) {
+  .no-aside {
+    grid-template-columns: auto;
+    grid-template-areas: "header header" "main" "footer";
   }
 }/*# sourceMappingURL=style.css.map */

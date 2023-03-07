@@ -11,7 +11,18 @@
           padding : 5px;
           margin : 10px;
           border : 1px solid #aaa;
+         
       }
+      .blocflex__article.cours:hover,.blocflex__article.note:hover{
+        background-color: white;
+        cursor: pointer;
+        p{
+            color: black;
+        }
+        h6{
+          color: #6192D3;
+        }
+        }
       .blocflex__galerie {
          flex : 1 0 100%; 
   }
