@@ -3,8 +3,10 @@
  * single.php est le modèle par défaut qui affiche un article
  */
 ?>
+<!----------------------------------HEADER----------------------------------->
+<?php get_header();?>
 
-<?php get_header(); ?>
+<!------------------------------------MAIN----------------------------------->
     <main>
         <pre>single.php</pre>
         <h1>Bienvenue sur 4W4</h1>
@@ -19,6 +21,7 @@
            <?php  endif; ?>
     </main>
     
+<!----------------------------------FOOTER----------------------------------->
     <?php get_footer(); ?>
 </body>
 </html>

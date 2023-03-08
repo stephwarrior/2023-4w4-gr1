@@ -3,7 +3,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 2px solid gray;
+    border-bottom: 1px solid gray;
+    padding: 0;
+    height: 5rem;
+    background-color: black;
 }
 .phraseIntrofoHeader{
     margin: 0 10px;
@@ -11,12 +14,11 @@
 .site__titre{
      margin: 0;
 }
-.site__description{
-    font-size: 2rem;
-    margin: 1rem 0;
+
+img.custom-logo {
+    width: 50%;
+    height: 50%;
 }
-
-
 /*//////////////////////////MENU_ENTETE////////*/
 .menu__entete{ //nav
     .menu{ //ul

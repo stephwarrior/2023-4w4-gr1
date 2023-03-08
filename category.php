@@ -6,8 +6,10 @@
  * https:localhost:8000/4w4gr1/category/note-4w4/
  */
 ?>
-
+<!----------------------------------HEADER----------------------------------->
 <?php get_header(); ?>
+
+<!------------------------------------MAIN----------------------------------->
 <main class="site__main">
    <section class="blocflex">
       <?php
@@ -31,4 +33,5 @@
       wp_reset_postdata();?>
    </section>
 </main>
+<!----------------------------------FOOTER----------------------------------->
 <?php get_footer(); ?>

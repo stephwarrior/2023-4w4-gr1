@@ -3,28 +3,50 @@
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
-        margin: 5rem 0;
-        padding-bottom: 15rem;
+       // margin: 0 4rem;
+       // padding-top: 15rem;
       }
       .blocflex__article {
           flex : 1 0 250px;
+          height: 250px;
           padding : 5px;
           margin : 10px;
           border : 1px solid #aaa;
          
       }
-      .blocflex__article.cours:hover,.blocflex__article.note:hover{
-        background-color: white;
-        cursor: pointer;
-        p{
-            color: black;
-        }
-        h6{
-          color: #6192D3;
-        }
-        }
+    
       .blocflex__galerie {
          flex : 1 0 100%; 
   }
+  .wp-block-cover, .wp-block-cover-image {
+    position: relative;
+    background-position: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    box-sizing: border-box;
+    height: 70vh;
+}
 
-   
+.cours:hover,.note:hover{
+    background-color: white;
+    cursor: pointer;
+    p{
+        color: black;
+    }
+    h6{
+      color: #6192D3;
+    }
+    }
+
+    img.wp-image-252 {
+      height: 100vh;
+      width: 100vw;
+      background-size: cover;
+      position: fixed;
+      left: 0;
+      top: 0;
+      z-index: -1;
+  }
+    

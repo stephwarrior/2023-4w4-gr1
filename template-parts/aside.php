@@ -8,7 +8,6 @@
     $menu="note-4w4";
     if(in_category('cours')){
         $menu="cours";
-
     }
     // $menu peut prendre les valeurs : "note-4w4" ou "cours"
     echo $menu;

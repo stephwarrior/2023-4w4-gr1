@@ -324,7 +324,6 @@ template {
 
 /* --------------------------------------------- base */
 h1 {
-  font-size: clamp(0.75rem, -0.75rem + 4.8vw, 3.75rem);
   font-family: "Lato", sans-serif;
   font-weight: 800;
 }
@@ -334,6 +333,7 @@ h2 {
   font-family: "Lato", sans-serif;
   font-weight: 200;
   color: white;
+  margin: 0;
 }
 
 h3 {
@@ -415,7 +415,10 @@ pre {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 2px solid gray;
+  border-bottom: 1px solid gray;
+  padding: 0;
+  height: 5rem;
+  background-color: black;
 }
 
 .phraseIntrofoHeader {
@@ -426,9 +429,9 @@ pre {
   margin: 0;
 }
 
-.site__description {
-  font-size: 2rem;
-  margin: 1rem 0;
+img.custom-logo {
+  width: 50%;
+  height: 50%;
 }
 
 /*//////////////////////////MENU_ENTETE////////*/
@@ -461,7 +464,7 @@ pre {
 }
 
 body {
-  background-color: #1E262F;
+  background-color: #0f151c;
   width: 100vw;
   height: 100vh;
   overflow-x: hidden;
@@ -474,7 +477,6 @@ body main {
   flex-direction: column;
   align-items: center;
   font-size: 1.3rem;
-  padding: 0 7rem;
 }
 body main pre {
   margin: 0;
@@ -505,30 +507,50 @@ body main pre {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin: 5rem 0;
-  padding-bottom: 15rem;
 }
 
 .blocflex__article {
   flex: 1 0 250px;
+  height: 250px;
   padding: 5px;
   margin: 10px;
   border: 1px solid #aaa;
 }
 
-.blocflex__article.cours:hover, .blocflex__article.note:hover {
+.blocflex__galerie {
+  flex: 1 0 100%;
+}
+
+.wp-block-cover, .wp-block-cover-image {
+  position: relative;
+  background-position: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+  box-sizing: border-box;
+  height: 70vh;
+}
+
+.cours:hover, .note:hover {
   background-color: white;
   cursor: pointer;
 }
-.blocflex__article.cours:hover p, .blocflex__article.note:hover p {
+.cours:hover p, .note:hover p {
   color: black;
 }
-.blocflex__article.cours:hover h6, .blocflex__article.note:hover h6 {
+.cours:hover h6, .note:hover h6 {
   color: #6192D3;
 }
 
-.blocflex__galerie {
-  flex: 1 0 100%;
+img.wp-image-252 {
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: -1;
 }
 
 .recherche {
@@ -565,7 +587,8 @@ body main pre {
 
 footer {
   padding: 5rem;
-  border-top: 2px solid gray;
+  border-top: 1px solid gray;
+  background-color: black;
 }
 
 .pageErreur h1 {
@@ -586,7 +609,6 @@ Mise en page général avec display:grid
 */
 .site__entete {
   grid-area: header;
-  padding: 1rem clamp(1rem, 3vw, 20rem);
 }
 
 .site__main {
