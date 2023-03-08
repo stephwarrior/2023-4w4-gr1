@@ -1,24 +1,3 @@
-# Laboratoire #3
-## 4W4-Conception d'interfaces et développement Web
-### Auteur: Stephanie Guerrier
-
-#### Objectifs
-- Améliorer la page d'accueil avec les flexbox
-- Réaliser le formatage des articles markdown
-- Modifier le thème de base avec quelques modèles dont:
-    - front-page.php
-    - single.php
-    - 404.php
-    - search.php
-- Développement de Sass  
-
-#### Liens de référence
-- Site sur le serveur Web distant **siteground**
-    - https://cidweb33.sg-host.com/
-- Github **stephWarrior**
-- Pour visualise sur VC installer « Markdown preview »
-- Pour activer ctrl-shift-v
-
 # TP1 (20 points)
 
 ## L\'objectif du TP1:
@@ -69,7 +48,7 @@
    - Une branche **tp1**
    - Déploiement de votre site sur Siteground
    - Un readme.md pour le thème et pour l'extension: auteur, titre du projet, description et lien vers votre site Site siteground
-   - Dans page d'accueil ...
+   
 
 2. Organisation de l'entête, footer et partie principale. Qualité du design et de l’intégration des différents éléments de contenu. Notamment, les articles de notes de cours s'affichent de façon optimale. Les modèles: header.php, footer.php, category.php, front-page.php et single.php sont bien structurés et affichent l'information prévue. **_(10 points)_**
 3. Design général de la page et organisation de la programmation Sass, PHP. Organisation des menus, bouton burger pour afficher le menu principal pour les petits écrans. Adaptabilité générale du site. **_(5 points)_**
